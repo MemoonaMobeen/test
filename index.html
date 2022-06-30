@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leap Years</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="input-wrapper">
+                <label for="start year">Start Year:</label>
+                <input type="number" value="1900" id="end year">
+
+            </div>
+            <div class="input-wrapper">
+                <label for="End year">End Year:</label>
+                <input type="number" value="3000" id="end year">
+
+            </div>
+
+
+        </div>
+        <button id="get-leap-year" >Get Leap Years</button>
+         
+ <div id="result"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- 
+if(
+    (startyear < 1582 || startyear > 2999) && (endyear < 1582 || endyear > 2999)
+ ) 
+ {
+     result.innerHTML = `<b>End year should be greater than start year.</b>`; 
+ }
+ else if(startyear<1582 || startyear > 2999){
+    result.innerHTML = `Start year should be greater than 1581 and less than 3000. `; 
+ }
+ else if(endyear<1582 || endyear > 2999 ){
+    result.innerHTML = `End year should be greater than 1581 and less than 3000. `;  -->
